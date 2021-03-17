@@ -1,3 +1,5 @@
-﻿add_subdirectory(OpenClBase)
+﻿add_subdirectory(Common)
+add_subdirectory(ApiRecording)
+add_subdirectory(OpenClBase)
 add_subdirectory(opencl)
 add_subdirectory(ApiTests)

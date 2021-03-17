@@ -1,13 +1,12 @@
-#include <atomic>
-#include <exception>
-#include <functional>
-#include <memory>
-#include <string>
-#include <vector>
+#include "Common.hpp"
 
 #include "CL/cl.h"
 
-#include "ClPtr.hpp"
+#include "Ptr.hpp"
 
-#include "ClPlatform.hpp"
+#include "PlatformIface.hpp"
+
+#include "PlatformRegsitrator.hpp"
+
+#include "EmulatorPlatform.hpp"
 #include "Utils.hpp"

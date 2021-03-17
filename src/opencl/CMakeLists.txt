@@ -1,6 +1,6 @@
 ﻿
 
-add_library(${OPENCL_EMULATOR_LIBRARY_NAME} SHARED "CL.cpp" "platform.cpp")
+add_library(${OPENCL_EMULATOR_LIBRARY_NAME} SHARED "CL.cpp" "platform.cpp" "devices.cpp")
 
 target_compile_definitions(${OPENCL_EMULATOR_LIBRARY_NAME} PRIVATE EXPORT)
 

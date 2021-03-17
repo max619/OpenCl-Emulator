@@ -1,0 +1,10 @@
+﻿---
+BasedOnStyle: Microsoft
+FixNamespaceComments: 'true'
+KeepEmptyLinesAtTheStartOfBlocks: 'true'
+MaxEmptyLinesToKeep: '1'
+NamespaceIndentation: None
+SortIncludes: 'false'
+UseTab: Never
+
+...
